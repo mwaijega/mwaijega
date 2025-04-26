@@ -1,29 +1,34 @@
-<div align="center"><h1 style="font-weight:bold; color: #8B4513;">💥 Welcome to My GitHub Profile! 💥</h1></div>
+```rust
+// [SYSTEM: DEVELOPER KERNEL v0.1.0]
+// Minimalist, performance-optimized, zero-bloat
 
+struct Developer {
+    name: &'static str,
+    stack: Vec<&'static str>,
+    philosophy: &'static str,
+}
 
+impl Developer {
+    fn new() -> Self {
+        Self {
+            name: "KELVIN MWAIJEGA",
+            stack: vec!["RUST", "PYTHON", "TYPESCRIPT", "AXUM", "APIs"],
+            philosophy: "when you deep dark place your not buried but planted 😈",
+        }
+    }
 
-## 🧠 Who Am I?
+    fn deploy() -> Result<(), SystemError> {
+        // Silent execution. No debug output.
+        // Performance metrics logged internally.
+        Ok(())
+    }
+}
 
-I'm a software engineer who loves turning ideas into clean, working code. Whether it's building sleek APIs with FastAPI, crafting smooth UIs in React, or solving tricky problems, I’m all about getting things done right. Always learning, always improving, and always coding my way.
+// Contact protocol: mwaijegakelvin@gmail.com
+// Projects::mount() -> pasaka_api, bfinder
+```
 
-## 🎸 Fun Facts
-🎶 Plays guitar when not coding. | | 🐼 My spirit animal? Po from Kung Fu Panda. | | 💬 Always up for tech discussions and new challenges!
-
-## 🚀 My GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mwaijega&show_icons=true&theme=radical&icon_color=8B4513&title_color=8B4513&bg_color=000000&border_color=8B4513&text_color=8B4513&count_private=true" 
-       alt="Kelvin's GitHub stats" 
-       style="border-radius: 10px; border: 2px solid #8B4513; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-</div>
-
-
-## 🏆 Top Languages
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mwaijega&layout=compact&theme=radical&icon_color=8B4513&title_color=8B4513&bg_color=000000&border_color=8B4513&text_color=8B4513" alt="Kelvin's Top Languages" style="border-radius: 10px; border: 2px solid #8B4513; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-</div>
-
-## 🎨 Special Thanks
-
-<span style="color: #8B4513;">Special thanks to the awesome open-source tools and libraries that help me achieve my goals! 🙌</span>
+![Rust](https://img.shields.io/badge/-RUST-black?style=flat-square&logo=rust&logoColor=white&color=000000)
+![Python](https://img.shields.io/badge/-PYTHON-black?style=flat-square&logo=python&logoColor=white&color=000000)
+![TypeScript](https://img.shields.io/badge/-TYPESCRIPT-black?style=flat-square&logo=typescript&logoColor=white&color=000000)
+[![wakatime](https://wakatime.com/badge/user/019c6927-1e86-484d-ab5d-8667a589d0a0.svg)](https://wakatime.com/@019c6927-1e86-484d-ab5d-8667a589d0a0)
